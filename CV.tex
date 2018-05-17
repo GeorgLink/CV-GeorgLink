@@ -1,0 +1,1244 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% -*- coding: UTF-8; -*-
+% vim: set fenc=utf-8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SIMPLE-RESUME-CV
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% See "README.md" for instructions on compiling this document.
+
+\documentclass[letterpaper,MMMyyyy,nonstopmode]{simpleresumecv}
+% Class options:
+% a4paper, letterpaper, nonstopmode, draftmode
+% MMMyyyy, ddMMMyyyy, MMMMyyyy, ddMMMMyyyy, yyyyMMdd, yyyyMM, yyyy
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Georg J.P. Link}
+\newcommand{\CVTitle}{Georg Link's CV} 
+%for Acme Corporation}
+\newcommand{\CVNote}{CV last updated on {\today}} 
+% for Acme Corporation}
+\newcommand{\CVWebpage}{http://georg.link/}
+% \newcommand{\CVWebpage}{http://georglink.de/}
+
+% PDF settings and properties.
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={\CVAuthor},
+pdfsubject={\CVWebpage},
+pdfcreator={XeLaTeX},
+pdfproducer={},
+pdfkeywords={},
+unicode=true,
+bookmarks=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+% Shorthand.
+\newcommand{\Code}[1]{\mbox{\textbf{#1}}}
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\Title{\CVAuthor}
+
+\begin{SubTitle}
+\href{https://www.google.com/maps/place/University+of+Nebraska+at+Omaha}
+{6001 Dodge Street, PKI 367, Omaha, Nebraska 68182, USA}
+\par
+\href{mailto:linkgeorg@gmail.com}
+{linkgeorg@gmail.com}
+\,\SubBulletSymbol\,
++1\,(402)\,206-7635
+\,\SubBulletSymbol\,
+\href{\CVWebpage}
+{\url{\CVWebpage}}
+\end{SubTitle}
+
+\begin{Body}
+
+%%%%%%%%%%%%%
+%% SUMMARY %%
+%%%%%%%%%%%%%
+
+\Section
+{Summary}
+{Summary}
+{PDF:Summary}
+
+My research advances our knowledge in corporate engagement with open
+source projects. As corporate involvement increases, open source foundations
+provide guidance and support for open source projects. We only begin to
+understand the evolution of this triangular relationship. My current research focus 
+is to inform this relationship through research into open source project health 
+and new market mechanisms. 
+My work has been accepted to 
+the Communications of the Association for Information Systems,
+the Journal for Universal Computer Science,
+ACM GROUP, 
+Americas Conference on Information Systems,
+OpenSym,
+HICSS, 
+CHAOSSCon,
+INFORMS,
+and MWAIS.
+My research has been supported by the Alfred P. Sloan Foundation, Mozilla, and the Linux Foundation.
+
+
+\BigGap
+I am engaged at both professional and university levels. I volunteered 
+at various academic conferences, was a conference co-organizer for the 
+2017 Big XII+ MIS Symposium, am currently the Communications Chair for AIS SIGOPEN, 
+and am an active member of the University of Nebraska at Omaha's BRIDGE Lab ---
+a lab dedicated to the advancement of IT design, architecture, and education. 
+I have reviewed for ICIS, AMCIS, MWAIS, ECIS, PACIS, HICSS, and OpenSym.
+Finally, I am an active member in the Linux Foundation CHAOSS project and 
+the Mozilla Bugmark project.
+
+
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\Section
+{Education}
+{Education}
+{PDF:Education}
+
+\Entry
+\href{http://unomaha.edu/}
+{\textbf{University of Nebraska at Omaha}},
+Omaha, Nebraska, USA
+
+\Gap
+\BulletItem
+Ph.D. in
+\href{https://www.unomaha.edu/college-of-information-science-and-technology/phd-it/index.php}
+{Information Technology}
+\hfill
+planned 2019
+%\DatestampYMD{2015}{08}{01} --
+%\DatestampYMD{2014}{07}{15}
+\begin{Detail}
+\SubBulletItem
+Thesis:
+%\href{http://www.example.com/my-phd-thesis}
+%{A Statistical Approach to Quantifying Climate Change}
+Signaling Theory in Collaborative Environments
+\SubBulletItem
+Advisor:
+Prof.~Matt~Germonprez
+\SubBulletItem
+Focus:
+Open Source Community Health
+\end{Detail}
+
+\Gap
+\BulletItem
+MBA -- Master of Business Administration
+\hfill
+%\DatestampYMD{2012}{08}{15} --
+%\DatestampYMD{2013}{08}{15}
+2013
+\begin{Detail}
+\SubBulletItem
+Concentration:
+Collaboration Science
+\SubBulletItem
+Cumulative GPA: 
+3.9 / 4.0
+\end{Detail}
+
+\BigGap
+\Entry
+\href{http://www.tu-bs.de}
+{\textbf{Technical University Braunschweig}},
+Braunschweig, Germany
+
+\Gap
+\BulletItem
+M.S. in
+\href{http://blog.wi2-tubs.de/}
+{Business Informatics}
+\hfill
+%\DatestampYMD{2006}{08}{15} --
+%\DatestampYMD{2008}{08}{15}
+2014
+\begin{Detail}
+\SubBulletItem
+Thesis:
+Evaluating Anchored Discussion as a New Tool for Creativity in Online Collaboration
+\SubBulletItem
+Cumulative GPA: 
+1.3 (German grade translates to 3.7 / 4.0)
+\end{Detail}
+
+\BigGap
+\Entry
+\href{http://www.welfenakademie.de/}
+{\textbf{WelfenAkademie}},
+Braunschweig, Germany
+
+\Gap
+\BulletItem
+B.A. in
+\href{http://www.welfenakademie.de/vertiefungsrichtungen-bwl/}
+{Business Administration}
+\hfill
+%\DatestampYMD{2002}{05}{15} --
+%\DatestampYMD{2005}{05}{15}
+2011
+\begin{Detail}
+\SubBulletItem
+Concentration: Banking
+\SubBulletItem
+Cumulative GPA: 
+1.8 (German grade translates to 3.2 / 4.0)
+\end{Detail}
+
+% \BigGap
+% \Entry
+% \href{http://www.welfenakademie.de/}
+% {\textbf{Gymnasium Julianum Helmstedt}},
+% Helmstedt, Germany
+
+% \Gap
+% \BulletItem
+% Abitur (H.S.)
+% \hfill
+% %\DatestampYMD{2002}{05}{15} --
+% %\DatestampYMD{2005}{05}{15}
+% 2008
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% RESEARCH EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \Section
+% {Research Experience}
+% {Research Experience}
+% {PDF:ResearchExperience}
+
+% \Entry
+% \href{http://www.example.com/my-institute}
+% {\textbf{Institute for Advanced Research}},
+% Science College
+
+% \Gap
+% \BulletItem
+% Undergraduate Research Student, Science Department
+% \hfill
+% \DatestampYMD{2004}{05}{15} --
+% \DatestampYMD{2005}{05}{15}
+% \begin{Detail}
+% \SubBulletItem
+% Project:
+% Investigations on the Use of Lasers to Measure Climate Change
+% \SubBulletItem
+% Supervisors:
+% Prof.~Jane~Citizen and
+% Dr~Ann~Yone
+% \SubBulletItem
+% Focus:
+% Climate change, lasers, statistical analysis, data analytics.
+% \end{Detail}
+
+
+%%%%%%%%%%%%%%%%%%%
+%% GRANT FUNDING %%
+%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Grant Funding}
+{Grant Funding}
+{PDF:GrantFunding}
+
+
+\Entry
+\textbf{Total: \$8,759.00}
+
+\Gap
+\BulletItem
+\$2,441.00 - Mozilla
+\hfill \DatestampY{2018}
+
+\begin{Detail}
+\SubBulletItem
+Travel support to ACM Collective Intelligence, Zurich, Switzerland
+\end{Detail}
+
+\Gap
+\BulletItem
+\$1,318.00 - Linux Foundation
+\hfill \DatestampY{2017}
+
+\begin{Detail}
+\SubBulletItem
+Travel support to Open Source Summit North America, Los Angeles, CA, USA
+\end{Detail}
+
+\Gap
+\BulletItem
+\$5,000.00 - University of Nebraska at Omaha
+\hfill \DatestampY{2017}
+
+\begin{Detail}
+\SubBulletItem
+Program: Graduate Research and Creative Activity (GRACA)
+\SubBulletItem
+Proposal title: The Changing Nature of Volunteerism in Open Source Communities
+\end{Detail}
+
+
+%%%%%%%%%%%%%%%%%%
+%% Scholarships %%
+%%%%%%%%%%%%%%%%%%
+
+\Section
+{Scholarships}
+{Scholarships}
+{PDF:Scholarships}
+
+\BulletItem
+\href{https://www.hss.de/stipendium/auswahlverfahren/internationale-studien-uni-und-medizin-uni/}
+{Hanns-Seidel-Stiftung}
+\hfill
+\DatestampY{2012} --
+\DatestampY{2014}
+
+\BulletItem
+\href{https://www.daad.de/en/}
+{German Academic Exchange Service (DAAD)}
+\hfill
+\DatestampY{2012} -- 
+\DatestampY{2013}
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+%% HONORS  & AWARDS %%
+%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Honors \&\newline
+Awards}
+{Honors \& Awards}
+{PDF:HonorsAwards}
+
+% Hanns-Seidel-Stiftung
+% DAAD 
+% more? look at old CV
+% Rotary RYLA
+% Student Government award
+
+\BulletItem
+Best Paper Award, AIS SIG GlobDev
+\hfill
+\DatestampY{2017}
+\begin{Detail}
+\SubBulletItem
+\href{http://aisel.aisnet.org/amcis2017/ICTs/Presentations/18/}
+{
+Link, G. J.P., \& Qureshi, S. (2017). The role of open source in new business formation: Innovations for development. In \textit{Proceedings of the Twenty-third Americas Conference on Information Systems}. Boston.
+}
+\end{Detail}
+
+\BulletItem
+Above and Beyond Excellence Award from UNO Student Government
+\hfill
+\DatestampY{2013}
+
+
+\BulletItem
+Rotary Youth Leadership Award (RYLA) Seminar
+\hfill
+\DatestampY{2008}
+
+
+%%%%%%%%%%%%%%%%%%
+%% PUBLICATIONS %%
+%%%%%%%%%%%%%%%%%%
+
+\newpage
+
+\Section
+{Publications}
+{Publications}
+{PDF:Publications}
+
+\input{pub_journals}
+\input{pub_conferences}
+
+\newpage
+\input{pub_presentations}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Academic Appointments %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Academic Appointments}
+{Academic Appointments}
+{PDF:AcademicAppointments}
+
+\Entry
+\href{http://unomaha.edu/}
+{\textbf{University of Nebraska at Omaha}},
+Omaha, Nebraska, USA
+
+\Gap
+\BulletItem
+Graduate Research and Teaching Assistant
+\hfill
+\DatestampY{2015} -- 
+present
+\begin{Detail}
+\SubBulletItem
+Funded by Alfred P. Sloan Foundation
+\SubBulletItem
+Funded by Mozilla
+\end{Detail}
+
+\BigGap
+\Entry
+\href{http://www.welfenakademie.de/}
+{\textbf{WelfenAkademie}},
+Braunschweig, Germany
+
+\Gap
+\BulletItem
+Visiting Lecturer for Information Systems
+\hfill
+\DatestampY{2014} --
+present
+%\DatestampYMD{2005}{05}{15}
+
+\BigGap
+\Entry
+\href{http://www.tu-bs.de}
+{\textbf{Technical University Braunschweig}},
+Braunschweig, Germany
+
+\Gap
+\BulletItem
+Research Assistant
+\hfill
+\DatestampY{2014} --
+\DatestampY{2015}
+\begin{Detail}
+\SubBulletItem
+Institute of Business Information Systems\newline
+Information Management Group
+\end{Detail}
+
+\Gap
+\BulletItem
+Research and Teaching Assistant
+\hfill
+\DatestampY{2013} --
+\DatestampY{2014}
+\begin{Detail}
+\SubBulletItem
+Institute of Operating Systems and Computer Networks\newline
+Algorithms Group
+\end{Detail}
+
+\Gap
+\BulletItem
+Research Assistant
+\hfill
+\DatestampY{2011} --
+\DatestampY{2012}
+\begin{Detail}
+\SubBulletItem
+Institute of Business Information Systems\newline
+Decision Support Group
+\end{Detail}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Grant Writing Experience %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+
+\Section
+{Grant Writing Experience}
+{Grant Writing Experience}
+{PDF:GrantWriting}
+
+\Entry
+\textbf{NSF: Early-concept Grants for Exploratory Research (EAGER) }
+\hfill
+\DatestampY{2018}
+\begin{Detail}
+% \BulletItem
+Title: Securing Critical Software Through Futures Markets;
+% \BulletItem
+PI: Matt Germonprez;
+% \BulletItem
+Under review.
+\end{Detail}
+
+
+\BigGap
+\Entry
+\textbf{Mozilla Research Grants 2018H1}
+\hfill
+\DatestampY{2018}
+\begin{Detail}
+% \BulletItem
+Title: Experiment on Introducing Project Health Signals and Price Signals in Open Source;
+% \BulletItem
+PI: Georg Link;
+% \BulletItem
+Under review.
+\end{Detail}
+
+
+\BigGap
+\Entry
+\textbf{Mozilla Open Source Experiments Program}
+\hfill
+\DatestampY{2018}
+\begin{Detail}
+Title: Experiment for Health Signals in Bugmark;
+PI: Georg Link;
+Unfunded Grant Proposal
+\end{Detail}
+
+
+\BigGap
+\Entry
+\textbf{Alfred P. Sloan Foundation}
+\hfill 
+\DatestampY{2017}
+
+\begin{Detail}
+Title: Open Source Project Health and Sustainability;
+PI: Matt Germonprez and Sean Goggins;
+Funded with \$449,351 (2018-2020)
+\end{Detail}
+
+\BigGap
+\Entry
+\textbf{GRACA} internal grant University of Nebraska at Omaha
+\hfill
+2017
+\begin{Detail}
+Graduate Research and Creative Activity (GRACA);
+Title: The Changing Nature of Volunteerism in Open source Communities;
+PI: Georg Link;
+Funded with \$5,000 (2017)
+\end{Detail}
+
+\BigGap
+\Entry
+\textbf{GRACA} internal grant University of Nebraska at Omaha
+\hfill
+2016
+\begin{Detail}
+Graduate Research and Creative Activity (GRACA);
+Title: The Guided Evolution of Open Source Communities;
+PI: Georg Link;
+Unfunded proposal.
+\end{Detail}
+
+\BigGap
+\Entry
+\textbf{BMBF} (German Federal Ministry of Education and Research)
+\hfill
+2014
+\begin{Detail}
+Title: DETHIS - Design Thinking for Industrial Services;
+PI: Christoph Lattemann;
+Project number 01FJ15100 funded with 1.6 million Euro (2016-2019).
+\end{Detail}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Teaching Experience %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Teaching Experience}
+{Teaching Experience}
+{PDF:TeachingExperience}
+
+\Entry
+\textbf{Managing the Database Environment}
+\hfill 
+2017 -- 2018
+\begin{Detail}
+% \BulletItem
+\href{http://unomaha.edu/}
+{University of Nebraska at Omaha},
+Omaha, Nebraska, USA
+\end{Detail}
+
+\BigGap
+\Entry
+\textbf{Organizations, Applications, and Technology}
+\hfill 
+2017
+\begin{Detail}
+% \BulletItem
+\href{http://unomaha.edu/}
+{University of Nebraska at Omaha},
+Omaha, Nebraska, USA
+\end{Detail}
+
+\BigGap
+\Entry
+\textbf{Introduction to Microsoft Excel}
+\hfill
+2014 -- Present
+\begin{Detail}
+% \BulletItem
+\href{http://www.welfenakademie.de/}
+{WelfenAkademie},
+Braunschweig, Germany
+\end{Detail}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% CAMPUS ACTIVITIES %%
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Professional University Activities}
+{Professional University Activities}
+{PDF:ProfessionalUniversityActivities}
+
+
+\Entry
+\textbf{UNO Mozilla Campus Club},
+University of Nebraska at Omaha
+
+\Gap
+\BulletItem
+Founder and Vice-President
+\hfill
+\DatestampY{2018} --
+Present
+
+
+\BigGap
+\Entry
+\textbf{Graduate College Committee},
+University of Nebraska at Omaha
+
+\Gap
+\BulletItem
+Student Representative
+\hfill
+\DatestampY{2016} --
+\DatestampY{2018}
+
+
+\BigGap
+\Entry
+\textbf{UCRCA Committee} (internal grants),
+University of Nebraska at Omaha
+
+\Gap
+\BulletItem
+Student Representative
+\hfill
+\DatestampY{2016} --
+\DatestampY{2017}
+
+
+\BigGap
+\Entry
+\textbf{PhD Student Group},
+University of Nebraska at Omaha
+
+\Gap
+\BulletItem
+Founder and President
+\hfill
+\DatestampY{2015} --
+\DatestampY{2017}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% CAMPUS ACTIVITIES %%
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Professional Academic Activities}
+{Professional Academic Activities}
+{PDF:ProfessionalAcademicActivities}
+
+\Entry
+\textbf{Executive}
+
+\Gap
+\BulletItem
+Communications Director, AIS SIGOPEN
+\hfill
+\DatestampY{2015} --
+Present
+
+\BigGap
+\Entry
+\textbf{Organizing} (Conference and Workshop)
+
+% \Gap
+\BulletItem
+OpenSym Program Committee
+\hfill
+\DatestampY{2018}
+
+% \Gap
+\BulletItem
+AMCIS Minitrack Co-Chair
+\hfill
+\DatestampY{2018}
+\begin{Detail}
+\SubBulletItem
+Minitrack: Peer Production Project Health
+\end{Detail}
+
+% \Gap
+\BulletItem
+OpenSym Program Committee and Session Chair
+\hfill
+\DatestampY{2017}
+
+% \Gap
+\BulletItem
+SIGOPEN Pre-ICIS Workshop on Open Phenomena
+\hfill
+\DatestampY{2017}
+
+\BigGap
+\Entry
+\textbf{Reviewing for Journals}
+\BulletItem
+2018
+\hfill
+\DatestampY{2018}
+\begin{Detail}
+\SubBulletItem
+Information and Organization
+\SubBulletItem
+Information Technology for Development
+\SubBulletItem
+Journal of Organizational Computing and Electronic Commerce
+\end{Detail}
+
+\BulletItem
+2017
+\hfill
+\DatestampY{2017}
+\begin{Detail}
+\SubBulletItem
+Information Technology for Development
+\SubBulletItem
+Information \& Management
+\SubBulletItem
+International Journal of Entrepreneurship and Small Business
+\SubBulletItem
+International Journal of Human-Computer Interaction 
+\end{Detail}
+
+\BulletItem
+2016
+\hfill
+\DatestampY{2016}
+\begin{Detail}
+\SubBulletItem
+Communications of the Association for Information Systems 
+\end{Detail}
+
+
+\BigGap
+\Entry
+\textbf{Reviewing for Conferences}
+\BulletItem
+2018: ICIS, AMCIS, OpenSym
+\hfill
+\DatestampY{2018}
+\BulletItem
+2017: AMCIS, ECIS, PACIS, MWAIS, OpenSym
+\hfill
+\DatestampY{2017}
+\BulletItem
+2016: ICIS, HICSS, AMCIS, ECIS
+\hfill
+\DatestampY{2016}
+\BulletItem
+2015: ECIS
+\hfill
+\DatestampY{2015}
+
+
+\BigGap
+\Entry
+\textbf{Conference Volunteering}
+\BulletItem
+ACM Group
+\hfill
+\DatestampY{2018}
+\BulletItem
+OpenSym
+\hfill
+\DatestampY{2017}
+\BulletItem
+Big XII+ MIS Research Symposium
+\hfill
+\DatestampY{2017}
+\BulletItem
+International Conference on Information Systems
+\hfill
+\DatestampY{2016}
+\BulletItem
+International Conference on Web Intelligence\newline
+and International Conference on Brain Informatics \& Health
+\hfill
+\DatestampY{2016}
+\BulletItem
+Coalition of Urban and Metropolitan Universities
+\hfill
+\DatestampY{2015}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PROFESSIONAL AFFILIATIONS & ACTIVITIES %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Professional Affiliations}%\newline
+%\& Activities}
+{Professional Affiliations}% \& Activities}
+{PDF:ProfessionalAffiliations}
+
+\Entry
+\href{http://aisnet.org/default.asp?}
+{\textbf{Association for Information Systems (AIS)}}
+\hfill
+\DatestampY{2016} --
+Present
+
+% \Gap
+\BulletItem
+AIS SIGOPEN
+
+\BulletItem
+Midwest United States Association for Information Systems (MWAIS)
+
+\BigGap
+\Entry
+\href{https://www.acm.org/}
+{\textbf{Association for Computing Machinery (ACM)}}
+\hfill
+\DatestampY{2016} --
+Present
+
+% Manual page break.
+% \newpage
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Industry Training & Certificates %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Industry Training \&\newline
+Certificates}
+{Industry Training \& Certificates}
+{PDF:IndustryTrainingCertificates}
+
+\Entry
+\textbf{Bankkaufmann}
+\hfill
+\DatestampY{2008} --
+\DatestampY{2011}
+
+\Gap
+\BulletItem
+Certified by Chamber of Commerce, Braunschweig, Germany
+\BulletItem
+ \href{https://www.seeligerbank.de/}{Bankhaus C. L. Seeliger}, Wolfenbüttel, Germany
+
+
+\BigGap
+\Entry
+\textbf{Ausbilder-Eignungsprüfung} 
+\hfill
+\DatestampY{2011}
+\Gap
+\BulletItem
+Certified by Chamber of Commerce, Braunschweig, Germany
+\BulletItem
+\href{http://en.welfenakademie.de/}{WelfenAkademie}, Braunschweig, Germany
+
+
+%%%%%%%%%%%%%%%
+%% LANGUAGES %%
+%%%%%%%%%%%%%%%
+
+% \Section
+% {Languages}
+% {Languages}
+% {PDF:Languages}
+
+% \BulletItem
+% German: Native language.
+
+% \Gap
+% \BulletItem
+% English: Fluent (speaking, reading, writing).
+
+%%%%%%%%%%%%
+%% SKILLS %%
+%%%%%%%%%%%%
+
+% \Section
+% {Skills}
+% {Skills}
+% {PDF:Skills}
+
+% \Entry
+% MATLAB,
+% Mathematica,
+% Maple,
+% R,
+% Tableau,
+% Adobe Photoshop,
+% Adobe Illustrator,
+% Microsoft Word,
+% Microsoft Excel,
+% Microsoft PowerPoint.
+
+
+%%%%%%%%%%%%%%%
+%% INTERESTS %%
+%%%%%%%%%%%%%%%
+
+% \Section
+% {Interests}
+% {Interests}
+% {PDF:Interests}
+
+% \Entry
+% Digital photography,
+% typography,
+% swimming.
+
+%%%%%%%%%%%%%%%%
+%% REFERENCES %%
+%%%%%%%%%%%%%%%%
+
+\Section
+{References}
+{References}
+{PDF:References}
+
+\BulletItem
+\textbf{Matt Germonprez}
+\newline
+Mutual of Omaha Associate Professor
+\newline
+Information Systems and Quantitative Analysis
+\newline
+University of Nebraska at Omaha
+% \newline
+% Peter Kiewit Institute 174B
+% \newline
+% 6001 Dodge St, Omaha, NE 68182
+\newline
+\href{mailto:mgermonprez@unomaha.edu}
+{mgermonprez@unomaha.edu}
+% \,\SubBulletSymbol\,
+% +1\,(555)\,222-2222
+
+\BigGap
+\BulletItem
+\textbf{Sean Goggins}
+\newline
+Associate Professor
+\newline
+School of Information Science and Learning Technologies
+\newline
+University of Missouri
+% \newline
+% 221B Townsend Hall 
+% \newline
+% 303 Townsend Hall, columbia, MO 65211, USA
+\newline
+\href{mailto:s@goggins.com}
+{s@goggins.com}
+% \,\SubBulletSymbol\,
+% +1\,(555)\,222-2222
+
+\BigGap
+\BulletItem
+\textbf{Brian Dorn}
+\newline
+Associate Professor
+\newline
+Computer Science
+\newline
+University of Nebraska at Omaha
+% \newline
+% Peter Kiewit Institute 174E
+% \newline
+% 6001 Dodge St, Omaha, NE 68182
+\newline
+\href{mailto:bdorn@unomaha.edu}
+{bdorn@unomaha.edu}
+% \,\SubBulletSymbol\,
+% +1\,(555)\,333-3333
+
+\BigGap
+\BulletItem
+\textbf{Robin A. Gandhi}
+\newline
+Associate Professor
+\newline
+Cybersecurity
+\newline
+University of Nebraska at Omaha
+% \newline
+% Peter Kiewit Institute 177A
+% \newline
+% 6001 Dodge St, Omaha, NE 68182
+\newline
+\href{mailto:rgandhi@unomaha.edu}
+{rgandhi@unomaha.edu}
+% \,\SubBulletSymbol\,
+% +1\,(555)\,333-3333
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% MULTILINGUAL UNICODE EXAMPLES %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \Section
+% {Multilingual Unicode Examples}
+% {Multilingual Unicode Examples}
+% {PDF:MultilingualUnicodeExamples}
+
+% \BulletItem
+% Assortment of unicode characters from
+% \href{http://www.ltg.ed.ac.uk/~richard/unicode-sample.html}
+% {\url{http://www.ltg.ed.ac.uk/~richard/unicode-sample.html}}
+
+% \begin{Detail}
+% \Item
+% \textbf{Latin Extended-A}
+% Ā ā Ă ă Ą ą Ć ć Ĉ ĉ Ċ ċ Č č Ď ď Đ đ Ē ē Ĕ ĕ Ė ė Ę ę Ě ě Ĝ ĝ Ğ ğ Ġ ġ Ģ ģ Ĥ ĥ Ħ ħ Ĩ ĩ Ī ī Ĭ ĭ Į į İ ı Ĳ ĳ Ĵ ĵ
+% \textbf{Latin Extended-B}
+% ƀ Ɓ Ƃ ƃ Ƅ ƅ Ɔ Ƈ ƈ Ɖ Ɗ Ƌ ƌ ƍ Ǝ Ə Ɛ Ƒ ƒ Ɠ Ɣ ƕ Ɩ Ɨ Ƙ ƙ ƚ ƛ Ɯ Ɲ ƞ Ɵ Ơ ơ Ƣ ƣ Ƥ ƥ Ʀ Ƨ ƨ Ʃ ƪ ƫ Ƭ ƭ Ʈ Ư ư Ʊ Ʋ Ƴ ƴ Ƶ
+% \textbf{Latin Extended Additional}
+% Ḁ ḁ Ḃ ḃ Ḅ ḅ Ḇ ḇ Ḉ ḉ Ḋ ḋ Ḍ ḍ Ḏ ḏ Ḑ ḑ Ḓ ḓ Ḕ ḕ Ḗ ḗ Ḙ ḙ Ḛ ḛ Ḝ ḝ Ḟ ḟ Ḡ ḡ Ḣ ḣ Ḥ ḥ Ḧ ḧ Ḩ ḩ Ḫ ḫ Ḭ ḭ Ḯ ḯ Ḱ ḱ Ḳ ḳ Ḵ ḵ
+% \textbf{Greek}
+% ʹ ͵ ͺ ; ΄ ΅ Ά · Έ Ή Ί Ό Ύ Ώ ΐ Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω Ϊ Ϋ ά έ ή ί ΰ α β γ δ ε ζ η θ
+% \textbf{Cyrillic}
+% Ё Ђ Ѓ Є Ѕ І Ї Ј Љ Њ Ћ Ќ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з
+% \textbf{Hebrew}
+% א ב ג ד ה ו ז ח ט י ך כ ל ם מ ן נ ס ע ף פ ץ צ ק ר ש ת װ ױ ײ ֝ ֞ ֟ ֠ ֡ ֣ ֤ ֥ ֦ ֧ ֨ ֩ ֪ ֫ ֬ ֭ ֮ ֯ ְ ֱ ֒ ֓ ֔
+% \textbf{Armenian}
+% {\UseSecondaryFont
+% Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ւ Փ Ք Օ Ֆ ՙ ՚ ՛ ՜ ՝ ՞ ՟ ա բ գ դ ե զ}
+% \textbf{Thai}
+% {\UseSecondaryFont
+% ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ฤ ล ฦ ว ศ ษ ส ห ฬ อ ฮ ฯ ะ ั า ำ ิ}
+% \end{Detail}
+
+% Manual page break.
+% \newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% THIS IS A SECTION WITH USAGE NOTES %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Declare a new group to limit the scope of \color to this section.
+% \begingroup
+% \color{red}
+
+% \Section
+% {This is a\newline
+% Section\newline
+% With\newline
+% Usage Notes}
+% {This is a Section With Usage Notes (For PDF Bookmark)}
+% {PDF:ThisIsASectionWithUsageNotes:ForPDFLink}
+
+% \SubSection
+% {This is a SubSection}
+% {This is a SubSection (For PDF Bookmark)}
+% {PDF:ThisIsASubSection:ForPDFLink}
+
+% \Gap
+% \BulletItem
+% Use \CodeCommand{Section\{a\}\{b\}\{c\}} and
+% \CodeCommand{SubSection\{a\}\{b\}\{c\}}
+% to create sections and subsections, where
+% \Code{a} is the heading displayed on the page,
+% \Code{b} is the PDF bookmark heading, and
+% \Code{c} is the internal PDF link (must be unique).
+% Sections and subsections will appear in the PDF bookmarks.
+% Note the CamelCase command names.
+
+% \Gap
+% \BulletItem
+% Use
+% \CodeCommand{Entry},
+% \CodeCommand{BulletItem},
+% \CodeCommand{SubBulletItem},
+% \CodeCommand{Item},
+% \CodeCommand{SubItem},
+% \CodeCommand{NumberedItem},
+% etc.,
+% to create entries in the main body of the CV.
+
+% \Gap
+% \BulletItem
+% Enclose entry details between
+% \CodeCommand{begin\{Detail\}} and
+% \CodeCommand{end\{Detail\}}
+% so that they are typeset in a smaller font.
+% \begin{Detail}
+% \Item
+% This is an example of entry detail text enclosed in a \Code{Detail} environment.
+% \end{Detail}
+
+% \Gap
+% \BulletItem
+% Use \CodeCommand{Gap} and \CodeCommand{BigGap} to insert vertical spaces between entries to improve layout.
+
+% \BigGap
+% \SubSection
+% {This is Another SubSection}
+% {This is Another Subsection (For PDF Bookmark)}
+% {PDF:ThisIsAnotherSubSection:ForPDFLink}
+
+% \Gap
+% \Entry
+% This is a plain \CodeCommand{Entry},
+% followed by an \CodeCommand{hfill} and a date range
+% \hfill
+% \DatestampYM{2015}{10} --
+% \DatestampYM{2015}{12}
+
+% \Gap
+% \BulletItem
+% This is a \CodeCommand{BulletItem}.
+% \Item
+% This is an \CodeCommand{Item}, which has no bullet.
+% Note the alignment with the \CodeCommand{BulletItem} above.
+
+% \Gap
+% \SubBulletItem
+% This is a \CodeCommand{SubBulletItem}.
+% \SubItem
+% This is a \CodeCommand{SubItem}, which has no bullet.
+% Note the alignment with the \CodeCommand{SubBulletItem} above.
+
+% \Gap
+% \NumberedItem{[42]}
+% This is a \CodeCommand{NumberedItem}.
+% Change the value of the macro \CodeCommand{MaxNumberedItem} to adjust the indentation width.
+
+% \BigGap
+% \SubSection
+% {Line, Paragraph, and Page Breaks}
+% {Line, Paragraph, and Page Breaks (For PDF Bookmark)}
+% {PDF:LineParagraphAndPageBreaks:ForPDFLink}
+
+% \Gap
+% \BulletItem
+% To create a new line within the same paragraph (i.e., preserving the same paragraph indentation), use \CodeCommand{newline} instead of \CodeCommand{\textbackslash};
+% the latter will reset the paragraph indentation.
+
+% \Gap
+% \BulletItem
+% To create a new paragraph, use \CodeCommand{par} or simply leave an empty line.
+% Paragraph indentations (from
+% \CodeCommand{Entry},
+% \CodeCommand{BulletItem},
+% \CodeCommand{SubBulletItem},
+% \CodeCommand{Item},
+% \CodeCommand{SubItem},
+% \CodeCommand{NumberedItem},
+% etc.) do not carry across different paragraphs.
+
+% \Gap
+% \BulletItem
+% To create a new page, use \CodeCommand{newpage}.
+
+% \BigGap
+% \SubSection
+% {Dates}
+% {Dates (For PDF Bookmark)}
+% {PDF:Dates:ForPDFLink}
+
+% \Gap
+% \BulletItem
+% Use the following macros to specify and display dates consistently:
+% \SubBulletItem
+% \CodeCommand{DatestampYMD\{yyyy\}\{MM\}\{dd\}}
+% (e.g., \CodeCommand{DatestampYMD\{2008\}\{01\}\{15\}})
+% \SubBulletItem
+% \CodeCommand{DatestampYM\{yyyy\}\{MM\}}
+% (e.g., \CodeCommand{DatestampYM\{2008\}\{01\}})
+% \SubBulletItem
+% \CodeCommand{DatestampY\{yyyy\}}
+% (e.g., \CodeCommand{DatestampY\{2008\}})
+
+% \Gap
+% \BulletItem
+% Change the date format option passed to the document class to adjust how dates are displayed throughout the document:
+% \SubBulletItem
+% \Code{MMMyyyy} (``Jan~2008'')
+% \SubBulletItem
+% \Code{ddMMMyyyy} (``15~Jan~2008'')
+% \SubBulletItem
+% \Code{MMMMyyyy} (``January~2008'')
+% \SubBulletItem
+% \Code{ddMMMMyyyy} (``15~January~2008'')
+% \SubBulletItem
+% \Code{yyyyMMdd} (``2008-01-15'')
+% \SubBulletItem
+% \Code{yyyyMM} (``2008-01'')
+% \SubBulletItem
+% \Code{yyyy} (``2008'')
+
+% \endgroup
+
+\end{Body}
+
+%%%%%%%%%%%
+% CV NOTE %
+%%%%%%%%%%%
+
+\UseNoteFont%
+\null\hfill%
+[\textit{\CVNote}]
+
+\end{document}
