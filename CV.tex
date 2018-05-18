@@ -3,14 +3,6 @@
 % -*- coding: UTF-8; -*-
 % vim: set fenc=utf-8
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SIMPLE-RESUME-CV
-%% <https://github.com/zachscrivena/simple-resume-cv>
-%% This is free and unencumbered software released into the
-%% public domain; see <http://unlicense.org> for details.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% See "README.md" for instructions on compiling this document.
 
 \documentclass[letterpaper,MMMyyyy,nonstopmode]{simpleresumecv}
 % Class options:
@@ -20,6 +12,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% PREAMBLE.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{graphicx}
 
 % CV Info (to be customized).
 \newcommand{\CVAuthor}{Georg J.P. Link}
@@ -1240,5 +1234,9 @@ University of Nebraska at Omaha
 \UseNoteFont%
 \null\hfill%
 [\textit{\CVNote}]
+
+\null\hfill%
+\href{https://creativecommons.org/licenses/by-nd/4.0/}{\includegraphics{CC-BY-ND-small}}
+
 
 \end{document}
